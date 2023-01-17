@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-image: url(./image/bg.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.animation::after {
+  content: "|";
+  animation-name: text;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes text {
+  0% {
+    content: "d|";
+  }
+  3% {
+    content: "de|";
+  }
+  6% {
+    content: "dev|";
+  }
+  9% {
+    content: "deve|";
+  }
+  12% {
+    content: "devel|";
+  }
+  15% {
+    content: "develo|";
+  }
+  18% {
+    content: "develop|";
+  }
+  21% {
+    content: "develope|";
+  }
+  24% {
+    content: "developer|";
+  }
+  27% {
+    content: "develope|";
+  }
+  30% {
+    content: "develop|";
+  }
+  33% {
+    content: "develo|";
+  }
+  37% {
+    content: "devel|";
+  }
+  40% {
+    content: "deve|";
+  }
+  43% {
+    content: "dev|";
+  }
+  47% {
+    content: "de|";
+  }
+  50% {
+    content: "d|";
+  }
+  53% {
+    content: "l|";
+  }
+  57% {
+    content: "la|";
+  }
+  60% {
+    content: "lar|";
+  }
+  63% {
+    content: "larr|";
+  }
+  66% {
+    content: "larry|";
+  }
+  70% {
+    content: "larry d|";
+  }
+  73% {
+    content: "larry da|";
+  }
+  76% {
+    content: "larry dan|";
+  }
+  79% {
+    content: "larry dani|";
+  }
+  82% {
+    content: "larry danie|";
+  }
+  85% {
+    content: "larry daniel|";
+  }
+  88% {
+    content: "larry danie|";
+  }
+  91% {
+    content: "larry dani|";
+  }
+  94% {
+    content: "larry dan|";
+  }
+  97% {
+    content: "larry da|";
+  }
+  100% {
+    content: "larrt d|";
+  }
+}
+.bg-icons {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 7px;
+}
+
+.progress-bar {
+  background-color: black !important;
+  height: 20px !important;
+  text-align: end;
+}
+.progress p {
+  z-index: 222;
+  position: absolute;
+  top: 2%;
+  left: 3px;
+}
+.icone {
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+}
+.layer-img {
+  transition: all 0.5s;
+}
+
+a:hover {
+  color: white !important;
+}
+.item:hover .layer-img {
+  opacity: 1 !important;
+}
+.carousel-indicators {
+  position: static;
+}
+.carousel-indicators [data-bs-target] {
+  width: 12px;
+  border-radius: 50%;
+  background: #869791;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.carousel-items {
+  display: inline;
+}
+i {
+  transition: all 0.5s;
+}
+i:hover {
+  color: white;
+  background-color: black;
+}
+h3::after {
+  content: "";
+  width: 100%;
+  background-image: url(../img/dots.png);
+  background-repeat: repeat;
+  position: absolute;
+  left: 0;
+}
