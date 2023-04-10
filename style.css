@@ -8,7 +8,8 @@ header {
   background-size: cover;
   background-position: center center;
 }
-li a , .color{
+li a,
+.color {
   color: rgb(217, 210, 210) !important;
 }
 
