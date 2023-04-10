@@ -8,6 +8,10 @@ header {
   background-size: cover;
   background-position: center center;
 }
+li a , .color{
+  color: rgb(217, 210, 210) !important;
+}
+
 .animation::after {
   content: "|";
   animation-name: text;
